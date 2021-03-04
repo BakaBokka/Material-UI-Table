@@ -15,7 +15,7 @@ import { postRow } from "../../utils/service";
 
 const useStyles = makeStyles({
   container: {
-    marginBottom: "20px"
+    marginBottom: "20px",
   },
   cell: {
     padding: "6px",
@@ -85,10 +85,11 @@ function UsersTable(props: {
     setPage(0);
   };
 
+  //Обработчик модального окна
   const handleModal = () => {
     setOpen(!open);
   };
-
+  //Обработчик добавления новой строки
   const handleAddRow = (newRow: Data) => {
     postRow(newRow).then((data) => {
       setRows([...rows, data]);

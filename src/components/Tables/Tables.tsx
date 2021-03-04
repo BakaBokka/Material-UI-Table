@@ -66,12 +66,15 @@ function Tables() {
     return newRows;
   };
 
-  const newData = () => {
+  //Собираем группы в отдельные массивы 
+  const groupsData = () => {
     const newGroups = groups.map((group: string) => filterGroup(group));
     return newGroups;
   };
 
-  const tableElement = newData().map((groupRows: Data[]) => {
+
+//Собираем таблицы по группам
+  const tableElement = groupsData().map((groupRows: Data[]) => {
     return (
       <GroupsTable
         getComparator={getComparator}

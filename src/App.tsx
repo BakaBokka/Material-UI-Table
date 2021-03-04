@@ -1,4 +1,3 @@
-import "./App.scss";
 import Main from "./components/Main/Main";
 import { Container } from "@material-ui/core";
 import { Route, Switch } from "react-router-dom";

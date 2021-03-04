@@ -86,10 +86,12 @@ function GroupsTable(props: {
     setPage(0);
   };
 
+ //Обработчик модального окна
   const handleModal = () => {
     setOpen(!open);
   };
 
+//Обработчик добавления новой строки
   const handleAddRow = (newRow: Data) => {
     postRow(newRow).then((data) => {
       setRows([...rows, data]);
