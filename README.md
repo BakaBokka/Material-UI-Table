@@ -26,9 +26,7 @@
 * Add new row by clicking "Add new row" button
 
 
-****
-### You need to start the local server before trying the application.
-See instructions below.
+
 
 
 ****
@@ -37,7 +35,6 @@ See instructions below.
 ### How to try?
 * Clone repo: `git clone`  https://github.com/BakaBokka/Material-UI-test-Table.git
 * Set dependencies: `npm i`
-* Starts mock-json-server on the localhost: `npm run mock:api`
 * Runs the app in the development mode on the local server: `npm start`
 
 
