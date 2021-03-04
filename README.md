@@ -33,7 +33,7 @@
 
 
 ### How to try?
-* Clone repo: `git clone`  https://github.com/BakaBokka/Material-UI-test-Table.git
+* Clone repo: `git clone`  https://github.com/BakaBokka/Material-UI-Table.git
 * Set dependencies: `npm i`
 * Runs the app in the development mode on the local server: `npm start`
 
